@@ -1,0 +1,23 @@
+.heading {
+    line-height: 1.5;
+}
+
+.color-default {
+    color: var(--colors-brand-east-bay);
+}
+
+.color-primary {
+    color: var(--colors-brand-medium-blue)
+}
+
+.size-md {
+    font-size: 22px;
+}
+
+.size-sm {
+    font-size: 18px;
+}
+
+.size-xs {
+    font-size: 14px;
+}
