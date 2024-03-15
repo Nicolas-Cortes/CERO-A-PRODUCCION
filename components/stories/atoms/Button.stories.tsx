@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
-import Button from '../../atoms/Button/index';
+import Button from '../../atoms/Button';
 
 const meta: Meta<typeof Button> = {
   component: Button,
@@ -18,4 +18,9 @@ export const Primary: Story = {
   export const Secondary: Story = {
     name: 'Secondary',
   render: () => <Button type="secondary">Secondary</Button>,
+  };
+
+  export const Tertiary: Story = {
+    name: 'Tertiary',
+  render: () => <Button type="tertiary">Tertiary</Button>,
   };

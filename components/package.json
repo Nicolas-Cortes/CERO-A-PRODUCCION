@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-custom-proprieties":"node ./scripts/build-custom-proprieties",
+    "build-tokens":"node ./scripts/build-tokens",
     "build-storybook": "storybook build"
   },
   "keywords": [],

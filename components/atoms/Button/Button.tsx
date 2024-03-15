@@ -12,10 +12,7 @@ const Button = ({type,children})=><button className={classNames("button",{
 
 Button.prototype={
     children:PropTypes.node.isRequired,
-    type:PropTypes.oneOf(['primary','secondary'])
+    type:PropTypes.oneOf(['primary','secondary','tertiary'])
 };
 
-Button.defaultProps ={
-    type:'primary'
-}
 export default Button;
