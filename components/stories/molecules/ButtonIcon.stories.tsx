@@ -11,8 +11,7 @@ export default meta;
 
 type Story = StoryObj<typeof ButtonIcon>;
 
-export const Default: Story =  {
-  args:{
-    icon
-  }
-} 
+export const Default: Story = {
+    name: 'Default',
+  render: () => <ButtonIcon icon='right-arrow'>Primary</ButtonIcon>,
+  };
